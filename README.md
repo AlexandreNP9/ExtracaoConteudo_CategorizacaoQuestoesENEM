@@ -73,6 +73,8 @@ MIT License
 
 # OBSERVAÇÕES
 Para criar uma variável de ambiente no Python:  
+```bash
 python3 -m venv venv  
 source venv/bin/activate  
 pip3 install pdf2image  
+```
