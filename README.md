@@ -49,7 +49,7 @@ from src.ocr_processor import processar_lote
 
 # Processar todas as imagens de uma pasta
 processar_lote('imagens/questoes', 'resultados/textos')
-```bash
+```
 
 📊 Métricas de Avaliação
 As APIs serão avaliadas com base em:
