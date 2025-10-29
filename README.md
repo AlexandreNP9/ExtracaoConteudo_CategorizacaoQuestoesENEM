@@ -30,7 +30,7 @@ O projeto complementa o trabalho realizado em [PreTratamento_CategorizacaoQuesto
 
 ## 📁 Estrutura do Projeto
 ExtracaoConteudo_CategorizacaoQuestoesENEM/  
-│
+│  
 ├── 📊 notebooks/ # Análises e testes comparativos  
 ├── 🔧 src/ # Códigos de extração  
 ├── 📁 imagens/ # Imagens de entrada (questões)  
@@ -55,18 +55,18 @@ processar_lote('imagens/questoes', 'resultados/textos')
 As APIs serão avaliadas com base em:
 
 ### ✅ Precisão do texto extraído
-⚡ Velocidade de processamento
-💰 Custo por imagem processada
-🔄 Suporte a caracteres especiais e fórmulas matemáticas
+⚡ Velocidade de processamento  
+💰 Custo por imagem processada  
+🔄 Suporte a caracteres especiais e fórmulas matemáticas  
 
 ## 🔗 Projeto Relacionado
 PreTratamento_CategorizacaoQuestoesENEM → Pré-processamento de PDFs e segmentação de questões
 
 ## 🤝 Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para:
-Sugerir novas APIs de OCR
-Reportar problemas ou melhorias
-Compartilhar resultados de testes
+Contribuições são bem-vindas! Sinta-se à vontade para:  
+Sugerir novas APIs de OCR  
+Reportar problemas ou melhorias  
+Compartilhar resultados de testes  
 
 ## 📄 Licença
 MIT License
