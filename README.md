@@ -51,22 +51,22 @@ from src.ocr_processor import processar_lote
 processar_lote('imagens/questoes', 'resultados/textos')
 ```
 
-📊 Métricas de Avaliação
+## 📊 Métricas de Avaliação
 As APIs serão avaliadas com base em:
 
-✅ Precisão do texto extraído
+### ✅ Precisão do texto extraído
 ⚡ Velocidade de processamento
 💰 Custo por imagem processada
 🔄 Suporte a caracteres especiais e fórmulas matemáticas
 
-🔗 Projeto Relacionado
+## 🔗 Projeto Relacionado
 PreTratamento_CategorizacaoQuestoesENEM → Pré-processamento de PDFs e segmentação de questões
 
-🤝 Contribuição
+## 🤝 Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para:
 Sugerir novas APIs de OCR
 Reportar problemas ou melhorias
 Compartilhar resultados de testes
 
-📄 Licença
+## 📄 Licença
 MIT License
