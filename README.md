@@ -29,14 +29,14 @@ O projeto complementa o trabalho realizado em [PreTratamento_CategorizacaoQuesto
 - Bibliotecas: PIL, pytesseract, requests, os, pathlib
 
 ## 📁 Estrutura do Projeto
-ExtracaoConteudo_CategorizacaoQuestoesENEM/
+ExtracaoConteudo_CategorizacaoQuestoesENEM/  
 │
-├── 📊 notebooks/ # Análises e testes comparativos
-├── 🔧 src/ # Códigos de extração
-├── 📁 imagens/ # Imagens de entrada (questões)
-├── 📁 resultados/ # Textos extraídos (.txt)
-├── 📋 metricas/ # Métricas de avaliação
-└── 📚 docs/ # Documentação
+├── 📊 notebooks/ # Análises e testes comparativos  
+├── 🔧 src/ # Códigos de extração  
+├── 📁 imagens/ # Imagens de entrada (questões)  
+├── 📁 resultados/ # Textos extraídos (.txt)  
+├── 📋 metricas/ # Métricas de avaliação  
+└── 📚 docs/ # Documentação  
 
 
 ## 🚀 Como Usar
