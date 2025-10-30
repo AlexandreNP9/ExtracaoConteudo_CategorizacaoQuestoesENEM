@@ -38,19 +38,6 @@ ExtracaoConteudo_CategorizacaoQuestoesENEM/
 ├── 📋 metricas/ # Métricas de avaliação  
 └── 📚 docs/ # Documentação  
 
-
-## 🚀 Como Usar
-
-### Pré-requisitos
-```bash
-pip install -r requirements.txt
-
-from src.ocr_processor import processar_lote
-
-# Processar todas as imagens de uma pasta
-processar_lote('imagens/questoes', 'resultados/textos')
-```
-
 ## 📊 Métricas de Avaliação
 As APIs serão avaliadas com base em:
 
@@ -71,9 +58,34 @@ Compartilhar resultados de testes
 ## 📄 Licença
 MIT License
 
-# OBSERVAÇÕES
+## 🚀 Como Usar
+
+### No Linux Mint
+#### Para instalar o tesseract
+```bash
+sudo apt update
+sudo apt install tesseract-ocr
+sudo apt install tesseract-ocr-por  // Para português
+sudo apt install tesseract-ocr-eng  // Para inglês
+sudo apt install tesseract-ocr-esp  // Para espanhol
+tesseract --version                 // Verificar instalação
+```
+
+### Pré-requisitos
+```bash
+pip install -r requirements.txt
+
+from src.ocr_processor import processar_lote
+
+# Processar todas as imagens de uma pasta
+processar_lote('imagens/questoes', 'resultados/textos')
+```
+
+# OBSERVAÇÕES técnicas
 Para criar uma variável de ambiente no Python:  
 ```bash
 python3 -m venv venv  
 source venv/bin/activate  
 ```
+
+Distribuição do S.O. utilizado:  Linux Mint 22
