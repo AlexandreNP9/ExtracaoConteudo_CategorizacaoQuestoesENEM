@@ -3,7 +3,7 @@ import os
 def extrair_todas_imagens():
     # Pasta com imagens e pasta para resultados
     pasta_imagens = "../imagens/2024-1Dia-Caderno1-Azul-AplicaçãoRegular"
-    pasta_resultados = "resultados"
+    pasta_resultados = "../resultados/2024-1Dia-Caderno1-Azul-AplicaçãoRegular"
     
     # Criar pasta de resultados se não existir
     if not os.path.exists(pasta_resultados):
