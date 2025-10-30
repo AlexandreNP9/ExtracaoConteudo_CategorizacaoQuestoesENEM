@@ -58,16 +58,22 @@ Compartilhar resultados de testes
 ## 📄 Licença
 MIT License
 
-## 🚀 Como Usar
+# OBSERVAÇÕES técnicas
+Distribuição do S.O. utilizado:  Linux Mint 22  
 
+## 🚀 Como Usar
 ### No Linux Mint
+#### Criar variável de ambiente
+```bash
+python3 -m venv venv  
+source venv/bin/activate  
+```
 #### Para instalar o tesseract
 ```bash
 sudo apt update
 sudo apt install tesseract-ocr
 sudo apt install tesseract-ocr-por  // Para português
 sudo apt install tesseract-ocr-eng  // Para inglês
-sudo apt install tesseract-ocr-esp  // Para espanhol
 tesseract --version                 // Verificar instalação
 ```
 
@@ -80,12 +86,3 @@ from src.ocr_processor import processar_lote
 # Processar todas as imagens de uma pasta
 processar_lote('imagens/questoes', 'resultados/textos')
 ```
-
-# OBSERVAÇÕES técnicas
-Para criar uma variável de ambiente no Python:  
-```bash
-python3 -m venv venv  
-source venv/bin/activate  
-```
-
-Distribuição do S.O. utilizado:  Linux Mint 22
