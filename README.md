@@ -6,24 +6,28 @@ Este repositório é dedicado à **extração de conteúdo textual** de imagens 
 
 O projeto complementa o trabalho realizado em [PreTratamento_CategorizacaoQuestoesENEM](https://github.com/AlexandreNP9/PreTratamento_CategorizacaoQuestoesENEM), onde os cadernos em PDF são pré-processados e cada questão é convertida em uma imagem individual.
 
-## 🎯 Objetivos
+## 🎯 Objetivos principais
+- Implementar API de OCR tesseract
+- Extrair o conteúdo textual de imagens de questões do ENEM
+- Gerar arquivos `.txt` correspondentes a cada imagem processada
+- Preparar os dados para futura categorização e análise
 
-- [ ] Implementar e comparar diferentes APIs de OCR
-- [ ] Extrair o conteúdo textual de imagens de questões do ENEM
-- [ ] Gerar arquivos `.txt` correspondentes a cada imagem processada
-- [ ] Avaliar a precisão e eficiência de cada solução de OCR
-- [ ] Preparar os dados para futura categorização e análise
+## 🎯 Objetivos secundários
+- Implementar e comparar diferentes APIs de OCR
+- Avaliar a precisão e eficiência de cada solução de OCR
 
 ## 🔧 Tecnologias e APIs em Teste
 
 ### APIs de OCR
+- ==> **Tesseract OCR** <== (principal)
+Secundárias para fim de comparação:
 - [ ] **Google Cloud Vision API**
 - [ ] **Amazon Textract**
 - [ ] **Microsoft Azure Computer Vision**
-- [ ] **OCR.space** (API gratuita)
-- [ ] **Tesseract OCR** (solução local)
+- [ ] **OCR.space**
 
 ### Linguagens e Ferramentas
+- Distro: Linux Mint 22.1
 - Python 3.12.3
 - Jupyter Notebook para análise
 - Bibliotecas: PIL, pytesseract, requests, os, pathlib
@@ -59,7 +63,7 @@ Compartilhar resultados de testes
 MIT License
 
 # OBSERVAÇÕES técnicas
-Distribuição do S.O. utilizado:  Linux Mint 22  
+Distribuição do S.O. utilizado:  Linux Mint 22.1
 
 ## 🚀 Como Usar
 ### No Linux Mint
@@ -80,7 +84,6 @@ tesseract --version                 // Verificar instalação
 ### Pré-requisitos
 ```bash
 pip install -r requirements.txt
-
 from src.ocr_processor import processar_lote
 
 # Processar todas as imagens de uma pasta
