@@ -23,3 +23,5 @@ Questão 36: são duas imagens lado a lado, a OCR não conseguiu separar. Precis
 Questão 43: o texto II era uma imagem, mas que continha a descrição logo acima da imagem. Não foi necessário descrever.
 
 Questão 53: tinha um gráfico, pedi para o Gemini descrever a imagem.
+
+Questão 86: tinham duas imagens para comparar, pedi para o Gemini descrever as imagens.
