@@ -2,22 +2,24 @@ QUESTAO 53
 
 Diferenças entre inundação gradual e brusca
 
-Inundação gradual
+(DESCRIÇÃO DA IMAGEM: 
+Esta imagem é um gráfico de dispersão que ilustra as Diferenças entre inundação gradual e brusca (o título está no topo).
 
-[o
-e)
-S
-s ' N
-Re)
-o
->
+Eixos:
 
-! 1
-! N MM
+O eixo vertical (y) representa a Velocidade (provavelmente a velocidade de subida ou escoamento da água).
 
-1 ONO,
+O eixo horizontal (x) representa o Tempo de duração (do evento de inundação).
 
-Tempo de duração
+Curvas:
+
+A linha tracejada azul representa a Inundação brusca. Ela mostra um aumento muito rápido na velocidade, atingindo um pico alto em um tempo relativamente curto, e depois a velocidade cai rapidamente, resultando em um tempo de duração total menor para o evento.
+
+A linha pontilhada vermelha representa a Inundação gradual. Ela mostra um aumento de velocidade mais lento, atingindo um pico mais baixo do que a inundação brusca, e depois a velocidade diminui mais lentamente, o que resulta em um tempo de duração total maior para o evento.
+
+Interpretação: O gráfico contrasta que as inundações bruscas são caracterizadas por alta velocidade e curta duração, enquanto as inundações graduais têm velocidade máxima mais baixa e longa duração.
+
+Fonte: Na parte inferior, há uma nota de rodapé indicando a fonte dos dados: TOMINAGA, L. K.; SANTORO, J.; AMARAL, R. Desastres naturais: conhecer para prevenir. São Paulo: Instituto Geológico, 2009 (adaptado).)
 
 TOMINAGA, L. K.; SANTORO, J.; AMARAL, R. Desastres naturais:
 conhecer para prevenir. São Paulo: Instituto Geológico, 2009 (adaptado).
