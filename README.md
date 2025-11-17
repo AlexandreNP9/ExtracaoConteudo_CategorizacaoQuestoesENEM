@@ -1,91 +1,27 @@
-# Extração de Conteúdo e Categorização de Questões do ENEM
+# ENEM_CategorizacaoQuestoes_ExtracaoConteudo
+Extrair o conteúdo das imagens das questões já tratadas, utlizando OCR
 
-## 📋 Descrição do Projeto
+# Softwares utilizados
+Linux Mint 22.1  
+Python 3  
+Gemini 2.5 flash
 
-Este repositório é dedicado à **extração de conteúdo textual** de imagens de questões do ENEM utilizando técnicas de OCR (Optical Character Recognition). 
+# Instalar softwares
+Espera-se que já tenha o python3 instalado
 
-O projeto complementa o trabalho realizado em [PreTratamento_CategorizacaoQuestoesENEM](https://github.com/AlexandreNP9/PreTratamento_CategorizacaoQuestoesENEM), onde os cadernos em PDF são pré-processados e cada questão é convertida em uma imagem individual.
-
-## 🎯 Objetivos principais
-- Implementar API de OCR tesseract
-- Extrair o conteúdo textual de imagens de questões do ENEM
-- Gerar arquivos `.txt` correspondentes a cada imagem processada
-- Preparar os dados para futura categorização e análise
-
-## 🎯 Objetivos secundários
-- Implementar e comparar diferentes APIs de OCR
-- Avaliar a precisão e eficiência de cada solução de OCR
-
-## 🔧 Tecnologias e APIs em Teste
-
-### APIs de OCR
-- ==> **Tesseract OCR** <== (principal)
-Secundárias para fim de comparação:
-- [ ] **Google Cloud Vision API**
-- [ ] **Amazon Textract**
-- [ ] **Microsoft Azure Computer Vision**
-- [ ] **OCR.space**
-
-### Linguagens e Ferramentas
-- Distro: Linux Mint 22.1
-- Python 3.12.3
-- Jupyter Notebook para análise
-- Bibliotecas: PIL, pytesseract, requests, os, pathlib
-
-## 📁 Estrutura do Projeto
-ExtracaoConteudo_CategorizacaoQuestoesENEM/  
-│  
-├── 📊 notebooks/ # Análises e testes comparativos  
-├── 🔧 src/ # Códigos de extração  
-├── 📁 imagens/ # Imagens de entrada (questões)  
-├── 📁 resultados/ # Textos extraídos (.txt)  
-├── 📋 metricas/ # Métricas de avaliação  
-└── 📚 docs/ # Documentação  
-
-## 📊 Métricas de Avaliação
-As APIs serão avaliadas com base em:
-
-### ✅ Precisão do texto extraído
-⚡ Velocidade de processamento  
-💰 Custo por imagem processada  
-🔄 Suporte a caracteres especiais e fórmulas matemáticas  
-
-## 🔗 Projeto Relacionado
-PreTratamento_CategorizacaoQuestoesENEM → Pré-processamento de PDFs e segmentação de questões
-
-## 🤝 Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para:  
-Sugerir novas APIs de OCR  
-Reportar problemas ou melhorias  
-Compartilhar resultados de testes  
-
-## 📄 Licença
-MIT License
-
-# OBSERVAÇÕES técnicas
-Distribuição do S.O. utilizado:  Linux Mint 22.1
-
-## 🚀 Como Usar
-### No Linux Mint
-#### Criar variável de ambiente
-```bash
+## Variável de Ambiente (caso necessário)
 python3 -m venv venv  
 source venv/bin/activate  
-```
-#### Para instalar o tesseract
-```bash
-sudo apt update
-sudo apt install tesseract-ocr
-sudo apt install tesseract-ocr-por  // Para português
-sudo apt install tesseract-ocr-eng  // Para inglês
-tesseract --version                 // Verificar instalação
-```
 
-### Pré-requisitos
-```bash
-pip install -r requirements.txt
-from src.ocr_processor import processar_lote
+## Para instalar o Google GenAI
+pip3 install google-genai
 
-# Processar todas as imagens de uma pasta
-processar_lote('imagens/questoes', 'resultados/textos')
-```
+## Chave API
+Obter API key no Google AI Studio  
+https://aistudio.google.com/app/api-keys  
+
+Adicionar ao código na variável de ambiente com:  
+export GEMINI_API_KEY="SUA_CHAVE_AQUI"
+
+## Tenacity para tratamento de falhas
+pip3 install tenacity
