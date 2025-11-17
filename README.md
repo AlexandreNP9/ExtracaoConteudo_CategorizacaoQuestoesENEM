@@ -20,29 +20,31 @@ Gemini 2.5 flash
 Espera-se que já tenha o python3 instalado
 
 ## Criar variável de ambiente (caso necessário)
-´´´
+```
 python3 -m venv venv  
 source venv/bin/activate  
-´´´
+```
 
 ## Para instalar o Google GenAI
-´´´
+```
 pip3 install google-genai
-´´´
+```
 
 ## Chave API
 Obter API key no Google AI Studio  
 https://aistudio.google.com/app/api-keys  
 
 Adicionar ao código na variável de ambiente com:  
-´´´
+```
 export GEMINI_API_KEY="SUA_CHAVE_AQUI"
-´´´
+```
 
 ## Tenacity para tratamento de falhas
-´´´
+```
 pip3 install tenacity
-´´´
+```
 
 ## Executar o script
+```
 python3 extrair-conteudo.py
+```
